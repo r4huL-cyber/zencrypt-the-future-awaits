@@ -1,6 +1,5 @@
 import GridBackground from '@/components/GridBackground';
 import FloatingParticles from '@/components/FloatingParticles';
-import Logo from '@/components/Logo';
 import CountdownTimer from '@/components/CountdownTimer';
 import EmailSignup from '@/components/EmailSignup';
 import SocialLinks from '@/components/SocialLinks';
@@ -19,10 +18,6 @@ const Index = () => {
       <FloatingParticles />
       
       <main className="relative z-10 min-h-screen flex flex-col">
-        {/* Header */}
-        <header className="p-6 sm:p-8">
-          <Logo />
-        </header>
 
         {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-center px-6 pb-20">
