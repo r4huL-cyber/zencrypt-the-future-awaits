@@ -22,6 +22,17 @@ const Index = () => {
         {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-center px-6 pb-20">
           <div className="text-center max-w-3xl mx-auto space-y-8">
+            {/* Brand Name */}
+            <div 
+              className="opacity-0 animate-fade-up"
+              style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}
+            >
+              <h2 className="text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight">
+                <span className="text-foreground">Zen</span>
+                <span className="text-primary text-glow">crypt</span>
+              </h2>
+            </div>
+
             {/* Badge */}
             <div 
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm opacity-0 animate-fade-up"
