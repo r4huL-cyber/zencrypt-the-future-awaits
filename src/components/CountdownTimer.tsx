@@ -11,9 +11,9 @@ const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    // Set launch date to 30 days from now
+    // Set launch date to 45 days from now
     const launchDate = new Date();
-    launchDate.setDate(launchDate.getDate() + 30);
+    launchDate.setDate(launchDate.getDate() + 45);
 
     const calculateTimeLeft = () => {
       const difference = +launchDate - +new Date();

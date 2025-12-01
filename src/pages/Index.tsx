@@ -109,7 +109,7 @@ const Index = () => {
             className="text-sm text-muted-foreground opacity-0 animate-fade-up"
             style={{ animationDelay: '1.1s', animationFillMode: 'forwards' }}
           >
-            © 2024 Zencrypt. All rights reserved.
+            © 2025 Zencrypt. All rights reserved.
           </p>
           <SocialLinks />
         </footer>
