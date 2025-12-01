@@ -3,6 +3,7 @@ import FloatingParticles from '@/components/FloatingParticles';
 import CountdownTimer from '@/components/CountdownTimer';
 import EmailSignup from '@/components/EmailSignup';
 import SocialLinks from '@/components/SocialLinks';
+import LaunchProgress from '@/components/LaunchProgress';
 import { Lock, Zap, Globe } from 'lucide-react';
 
 const Index = () => {
@@ -88,6 +89,7 @@ const Index = () => {
                 Launching In
               </p>
               <CountdownTimer />
+              <LaunchProgress />
             </div>
 
             {/* Email Signup */}
